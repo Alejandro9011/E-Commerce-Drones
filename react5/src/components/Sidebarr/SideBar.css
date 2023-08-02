@@ -1,0 +1,41 @@
+.sidebar {
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #010101;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+ 
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+.sidebar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar:hover {
+  left: 0;
+}
+.logo{
+  color: "white";
+  margin-bottom: 5px;
+
+}
+
+.sidebar {
+  height:4000px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
